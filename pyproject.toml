@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fast-api-template"
+version = "1.1.0"
+description = "A Production Ready Template for Fast API Applications"
+authors = ["AshleyAlexJacob <alexjacob260@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+fastapi = "^0.103.2"
+python-dotenv = "^1.0.0"
+uvicorn = "^0.23.2"
+black = "^23.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

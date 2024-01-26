@@ -1,0 +1,10 @@
+version: '0.0.1.STAGING'
+services:
+    api:
+        build: .
+        ports:
+        # outside container: inside container
+            - "8080:5001"
+        volumes:
+            - .:/application
+        image:  fast-api-template
